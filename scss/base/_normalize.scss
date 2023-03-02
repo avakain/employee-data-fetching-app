@@ -1,0 +1,59 @@
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+
+/* CSS Normalize */
+
+/* Reset box-sizing to border-box */
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  /* Reset margins and padding */
+  body,
+  h1, h2, h3, h4, h5, h6,
+  p, blockquote, pre,
+  dl, dd, ol, ul,
+  figure,
+  fieldset, legend {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Reset font sizes and line-heights */
+  html {
+    font-size: 62.5%; /* 1rem = 10px */
+    line-height: 1.15;
+  }
+  
+  body {
+    font-size: 1.6rem; /* 16px */
+  }
+  
+  /* Reset default font family */
+  body {
+    font-family: sans-serif;
+  }
+  
+  /* Reset lists to not display bullets */
+  ol, ul {
+    list-style: none;
+  }
+  
+  /* Reset form elements */
+  button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+  }
+  
+  /* Reset images to not display border */
+  img {
+    border-style: none;
+  }
+  
+

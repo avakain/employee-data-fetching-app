@@ -1,0 +1,15 @@
+/*=============================================*/
+/*              Grid System                      */
+/* ============================================= */
+
+body{
+    display: grid;
+    justify-content: center;
+}
+
+
+.grid-container{
+    display: grid;
+    justify-content: center;
+    margin: auto;
+}
